@@ -50,7 +50,7 @@ console.log(yearActual / 2); */
 
 // Lógicos <, >, <=, >=, ==   ----- utilizados para hacer comparaciones
 
-var edadAna, edadMaria, diferenciaEdad;
+/* var edadAna, edadMaria, diferenciaEdad;
 edadAna = 34;
 edadMaria = 28;
 
@@ -69,4 +69,42 @@ var c = a % 5;     //Residuo o resto de una división. 5*2 = 10. Me devuelve 1 d
 console.log(c);
 
 a += b;            // a = a + b;
-console.log(a);
+console.log(a); */
+
+// SENTENCIAS Y ESTRUCTURAS DE CONTROL: if else, if anidados, switch, for, while, do while 
+
+// If Else     if (contition) sentencia1 [else sentencia 2]
+
+/* var nombre = "Grover";
+var esCasado = false;
+
+if (esCasado == true) {
+    console.log(nombre + ' es casado ')
+} else {
+    console.log(nombre + ' es soltero')
+}  */
+
+// SENTENCIAS LÓGICAS   Not, And, Or
+
+/* var nombre = "Grover";
+var edad = 63;
+
+// edad < 12 es un niño
+// edad > 11 es < 18, es un adolescente
+// edad > 17, es < 60, es un adulto
+// edad > 60, es un anciano
+
+if (edad < 12) {
+    console.log(nombre + ' es un niño ');
+} else if((edad > 11) && (edad < 18)) {
+    console.log(nombre +  ' es un adolescente ');
+} else if((edad > 17) && (edad < 60)) {
+console.log(nombre + ' es un adulto ')
+} else {
+    console.log(nombre + ' es un anciano')
+} */ 
+
+// SENTENCIA SWITCH 
+
+
+
