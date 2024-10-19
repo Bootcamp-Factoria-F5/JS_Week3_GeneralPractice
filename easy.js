@@ -1,3 +1,5 @@
+// Ejercicios para aprender JavaScript durante el Bootcamp F5 - 18 October 2014
+
 //let usuario = {};
 
 // EJERCICIO 1: crea una función que reciba un número y retorne el mismo número
