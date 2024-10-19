@@ -153,5 +153,50 @@ do{
 */
 
 
-// ***** FUNCIONES
+// ***** FUNCIONES  - 3 maneras de llamar a las funciones: llamarlas directamente, cuando le enviamos un argumento, cuando nos retorna un valor
+
+function mensaje1(){
+    console.log('Mensaje desde la función')
+}
+mensaje1();
+
+
+function mensaje2(msj){
+    console.log(msj);
+}
+var msj = 'Mensaje como argumento de la función';
+mensaje2(msj);
+
+
+function mensaje3(){
+    return 'Mensaje como devolución de la función';
+}
+var msj2 = mensaje3();
+console.log(msj2);
+
+//** ARGUMENTOS DE LAS FUNCIONES
+
+/* function sumar1(a, b, c) {
+    return a + b + c;
+}
+var result = sumar1(4, 5, 8);
+console.log(result);
+
+
+function sumar2(a, b, c=3) {
+    return a + b + c;
+}
+var result2 = sumar2(3, 7);
+console.log(result2);
+
+
+var sumar3 = function (a, b, c) {
+    return a + b + c;
+}
+var result3 = sumar3(1, 5, 3);
+console.log(result3); */
+
+//** FUNCIONES PREDEFINIDAS
+
+
 
