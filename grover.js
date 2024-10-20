@@ -155,7 +155,7 @@ do{
 
 // ***** FUNCIONES  - 3 maneras de llamar a las funciones: llamarlas directamente, cuando le enviamos un argumento, cuando nos retorna un valor
 
-function mensaje1(){
+/* function mensaje1(){
     console.log('Mensaje desde la función')
 }
 mensaje1();
@@ -196,7 +196,47 @@ var sumar3 = function (a, b, c) {
 var result3 = sumar3(1, 5, 3);
 console.log(result3); */
 
-//** FUNCIONES PREDEFINIDAS
+//***** ARRAYS
 
 
+/* var nombres = ["Grover", "Carlos", "Ana", "Luisa"];
+var vegetales = new Array("tomate", "lechuga", "zanahoria");
+
+console.log(nombres[3]);
+console.log(vegetales[2]);
+
+
+nombres[0] = "Jose";
+vegetales[2] = "Nabo";
+
+console.log(nombres[0]);
+console.log(vegetales[2]);
+
+
+console.log(nombres.length);
+for (var i = 0; i <= nombres.length - 1; i++) {          // Recorrer un array
+    console.log(nombres[i]); 
+}
+
+ vegetales.forEach(function(elemento, indice){           // Recorrer un array
+    console.log(elemento, indice);
+ })
+
+ console.log(nombres);
+ nombres.push("Pedro");                                  // Agrega un elemento al final del array
+ console.log(nombres);
+ nombres.unshift("Lily");                                // Agrega un elemento al principio del array
+ console.log(nombres);
+ nombres.pop();                                          // Quita el ultimo elemento del array
+ console.log(nombres);
+ nombres.shift();                                        // Quitar y regresa el array cómo al principio
+ console.log(nombres);
+
+ var pos = nombres.indexOf("Carlos");                    // Nos dice el indice de un elemento
+ console.log(pos);
+
+ nombres.splice(1, 2);                                    // Quita 2 elementos del array a partir del indice 1
+ console.log(nombres);
+
+*/ 
 
